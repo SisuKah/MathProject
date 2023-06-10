@@ -1,7 +1,7 @@
 import React, {  } from 'react'
 import { Container, Props } from './styles'
 
-// So this will get removed if I restore this... hmmm... interesting...
+// This commen was stupid so I removed it.
 const HomePage: React.FC<Props> = ({pageName, visible})=>{  
     return(
         <Container className={`app-container-column ${visible ? "" : "hide-page"}`}>
