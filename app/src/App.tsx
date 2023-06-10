@@ -14,7 +14,7 @@ import light from './styles/themes/light'
 import { type } from '@tauri-apps/api/os';
 const osType = await type()
 
-// Set DropShadow
+// Set Shadow
 if (osType == "Windows_NT") invoke('set_window_shadow')
 
 function App() {
