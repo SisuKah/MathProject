@@ -1,7 +1,7 @@
 import React, {  } from 'react'
 import { Container, Props } from './styles'
 
-// So this will get removed if I restore this... hmmm... interesting...
+// Well... Well... Well... You tried to remove be but I rise from the ashes
 const HomePage: React.FC<Props> = ({pageName, visible})=>{  
     return(
         <Container className={`app-container-column ${visible ? "" : "hide-page"}`}>
